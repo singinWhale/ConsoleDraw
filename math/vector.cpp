@@ -55,7 +55,7 @@ vector vector::operator*(const float s) const
 	return vector(x*s, y*s);
 }
 
-vector vector::operator*(const float s) const
+vector vector::operator/(const float s) const
 {
 	return vector(x/s, y/s);
 }
@@ -103,7 +103,7 @@ void vector::normalize()
 //rotate the vector by rad (Radians)
 void vector::rotate(float const rad)
 {
-	rotateRad(rad);
+	this->rotateRad(rad);
 }
 
 //rotate the vector by rad (Radians)
