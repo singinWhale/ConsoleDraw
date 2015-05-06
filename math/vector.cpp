@@ -55,7 +55,7 @@ vector vector::operator*(const float s) const
 	return vector(x*s, y*s);
 }
 
-vector vector::operator*(const float s) const
+vector vector::operator/(const float s) const
 {
 	return vector(x/s, y/s);
 }

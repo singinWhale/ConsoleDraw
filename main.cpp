@@ -1,4 +1,5 @@
 #include <Windows.h>
+#include "Painter.h"
 #pragma comment(lib, "Msimg32.lib")
 namespace paint{
 	/*
@@ -194,6 +195,7 @@ namespace console{
 //////////////////////////////////////////////////////////////////////////////////TESTAREA
 
 int main(){
+	char x = Painter::console::chars::uml::cauml;
 	
 	return 0;
 }
